@@ -1,0 +1,26 @@
+{
+  "name": "sorting---typescript-course",
+  "version": "1.0.0",
+  "description": "Typescript code-along with Stephen Grider",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markstanden/sorting---typescript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markstanden/sorting---typescript-course/issues"
+  },
+  "homepage": "https://github.com/markstanden/sorting---typescript-course#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
